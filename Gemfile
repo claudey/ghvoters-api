@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -24,6 +25,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
+
+# API Gems, from tutorial at http://apionrails.icalialabs.com/book/chapter_one#code-gemfile_serializer
+gem 'active_model_serializers'
 
 group :development do
   gem 'listen', '~> 3.0.5'
